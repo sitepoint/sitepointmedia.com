@@ -1,5 +1,14 @@
-@import 'global/fonts';
-@import 'global/colours';
+@import 'global/_fonts';
+@import 'global/_colours';
+@import 'global/_objects';
+@import 'global/_base';
 
-@import 'global/resets';
-@import 'global/components';
+@import 'components/_header';
+@import 'components/_footer';
+@import 'components/_form';
+@import 'components/_sections-base';
+@import 'components/_icons-section';
+@import 'components/_facts-section';
+@import 'components/_locations-section';
+@import 'components/_logos-section';
+@import 'components/_contact-section';

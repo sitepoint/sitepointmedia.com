@@ -1,0 +1,57 @@
+.facts{
+  background: $c-background-dark-grey;
+  min-height: 340px;
+
+  h1{
+    padding-top: 2.5em;
+    color: $c-white;
+
+    @media only screen and (max-width: #{$mobile-max-width-portrait}){
+      font-size: 1.7em;
+    }
+  }
+
+  .facts-container{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-top: 1em;
+
+    @media only screen and (min-width: 820px){
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: #{$mobile-max-width-portrait}){
+    padding-bottom: 3em;
+    min-height: 400px;
+  }
+
+  .factbox{
+    position: relative;
+    display: inline-block;
+    width: 24.5%;
+    vertical-align: top;
+
+    @media only screen and (max-width: #{$mobile-max-width-portrait}){
+      width: 45%;
+    }
+
+    h2{
+      color: $c-green;
+      font-size: 1.5em;
+      line-height: 0.1em;
+
+      @media only screen and (min-width: 820px){
+        font-size: 1.9em;
+      }
+    }
+
+    p{
+      color: $c-white;
+
+      @media only screen and (max-width: #{$mobile-max-width-portrait}){
+        font-size: 1em;
+      }
+    }
+  }
+}
