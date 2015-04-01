@@ -3,12 +3,11 @@
 @import 'global/_objects';
 @import 'global/_base';
 
-@import 'components/_header';
-@import 'components/_footer';
-@import 'components/_form';
-@import 'components/_sections-base';
-@import 'components/_icons-section';
-@import 'components/_facts-section';
-@import 'components/_locations-section';
-@import 'components/_logos-section';
-@import 'components/_contact-section';
+@import 'components/_Header';
+@import 'components/_Footer';
+@import 'components/_IconSection';
+@import 'components/_FactSection';
+@import 'components/_LocationSection';
+@import 'components/_LogoSection';
+@import 'components/_ContactForm';
+@import 'components/_ContactSection';
