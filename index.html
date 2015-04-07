@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link rel="stylesheet" type="text/css" href="assets/styles/sitepointmedia.css" />
 
@@ -19,70 +20,118 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicons/apple-touch-icon-72x72-precomposed.png" /><!-- For iPad -->
     <link rel="apple-touch-icon-precomposed" href="assets/favicons/apple-touch-icon-57x57-precomposed.png" /><!-- For iPhone -->
 
+    <style>
+
+      .fsForm {
+        box-shadow: none !important;
+        max-width: 600px !important;
+        margin: auto !important;
+        padding: 0 15px 50px 15px !important;
+      }
+
+      .fsForm label {
+        display: block !important;
+        padding: 8px 0 !important;
+        font-weight: bold !important;
+      }
+
+      .fsRequiredMarker {
+        color: red !important;
+        font-weight: bold !important;
+        padding-left: 5px !important;
+      }
+
+      .fsForm label ~ input {
+        font-size: 20px !important;
+        padding: 3px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      .fsForm textarea {
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      .fsForm .fsSubmit {
+        background-color: transparent !important;
+      }
+
+      .fsForm .fsSubmitButton {
+        -webkit-border-radius: 6 !important;
+        -moz-border-radius: 6 !important;
+        border-radius: 6px !important;
+        border: none !important;
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+        font-style: normal !important;
+        color: #ffffff !important;
+        font-weight: 700 !important;
+        font-size: 1em !important;
+        background: #3bb2d0 !important;
+        padding: 0.8em 1em 0.8em 1em !important;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25) !important;
+        text-decoration: none !important;
+      }
+
+    </style>
 
   </head>
   <body>
-    <main>
-
-      <header class="Header">
+    <div class="main">
+      <div class="header">
         <div>
-          <div class="HeaderLogo">
+          <div class="logo">
             <img src="assets/images/logo.png" alt=""/>Sitepoint Media
           </div>
-          <div class="HeaderContact">
+          <div class="header-contact">
             <div class="btn">
-              <a class="HeaderContactAction" href="#contact">Contact us</a>
+              <a href="#contact">Contact us</a>
             </div>
           </div>
         </div>
         <div class="clear"></div>
-        <div class="HeaderTagline">
-          <h1 class="HeaderTaglineHeading" >We connect brands with the world's
+        <div class="tagline">
+          <h1>We connect brands with the world's
           expert web professionals.</h1>
-        </section>
-        <div class="HeaderArrow">
-          <a class="HeaderArrowAction" href="#section2"><img src="assets/images/arrow.png" alt="" /></a>
         </div>
-      </header>
-
+        <div class="arrow">
+          <a href="#section2"><img src="assets/images/arrow.png" alt="" /></a>
+        </div>
+      </div>
       <div class="clear"></div>
-
-      <section class="IconSection">
-        <a class="IconSectionAnchor" name="section2"></a>
-        <h1 class="IconSectionHeading">Our products embed your message into the design
+      <div class="icons">
+        <a name="section2"></a>
+        <h1>Our products embed your message into the design
             and voice our audience responds to</h1>
-
-        <div class="clear"></div>
-
-        <div class="Iconboxes_container">
-          <div class="Iconbox">
-            <img class="IconboxIcon" src="assets/icons/sites.png" alt="" />
-            <h2 class="IconboxHeading">Sites</h2>
-            <p class="IconboxBody">The World's Leading Resource for
-               web professionals, specializing
-               in technology.</p>
-            </div>
-            <div class="Iconbox">
-            <img src="assets/icons/readers.png" alt="" />
-            <h2 class="IconboxHeading">Readers</h2>
-            <p class="IconboxBody">Loyal &amp; skilled readers of over
-               5 million Developers, Designers
-               &amp; Business Owners.</p>
+      <div class="clear"></div>
+        <div class="iconbox-container">
+          <div class="iconbox1">
+          <img src="assets/icons/sites.png" alt="" />
+          <h2>Sites</h2>
+          <p>The World's Leading Resource for
+             web professionals, specializing
+             in technology.</p>
           </div>
-          <div class="Iconbox">
-            <img src="assets/icons/community.png" alt="" />
-            <h2 class="IconboxHeading">Community</h2>
-            <p class="IconboxBody">We are continuously connecting
-               with an audience of engaged
-               tech leaders.</p>
+          <div class="iconbox2">
+          <img src="assets/icons/readers.png" alt="" />
+          <h2>Readers</h2>
+          <p>Loyal &amp; skilled readers of over
+             5 million Developers, Designers
+             &amp; Business Owners.</p>
+          </div>
+          <div class="iconbox3">
+          <img src="assets/icons/community.png" alt="" />
+          <h2>Community</h2>
+          <p>We are continuously connecting
+             with an audience of engaged
+             tech leaders.</p>
           </div>
         </div>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <section class="LogoSection">
-        <h1 class="LogoSectionHeading">Who we are</h1>
-        <p class="LogoSectionBody">We've been on the web since 1996, back when everyone called it the "Information Superhighway", you had
+      <div class="logos">
+        <h1>Who we are</h1>
+        <p>We've been on the web since 1996, back when everyone called it the "Information Superhighway", you had
            to connect using a shrieling phone line, and page speed was measured in seconds &mdash; many, many seconds.
            Things have gotten a bit better since then, but we've kept up. We've long been the world's leading resource
            for web professionals. Five million smart people, mostly devs, designers or entrepreneurs, visit our sites every
@@ -90,146 +139,133 @@
            newsletters. Our authority and longevity means Google likes us, and our useful advice and modern
            approach means our readers, users &mdash; and advertisers &mdash; do too.</p>
        <div class="clear"></div>
-        <div class="Logoboxes_container">
-          <div class="Logobox">
+        <div class="logobox-container">
+          <div class="logobox2">
           <a href="http://www.sitepoint.com" target="_blank" title="SitePoint">
-            <img class="LogoboxLogo" src="assets/images/websites/sitepoint.png" alt="" />
+            <img src="assets/images/websites/sitepoint.png" alt="" />
           </a>
-          <p class="LogoboxBody">The largest community of designers
+          <p>The largest community of designers
              and developers worldwide.</p>
           </div>
-          <div class="Logobox">
+          <div class="logobox3">
           <a href="https://learnable.com" target="_blank" title="Learnable">
-            <img class="LogoboxLogo" src="assets/images/websites/learnable.png" alt="" />
+            <img src="assets/images/websites/learnable.png" alt="" />
           </a>
-          <p class="LogoboxBody">Discover the best way to learn
+          <p>Discover the best way to learn
              new technology.</p>
           </div>
         </div>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <section class="InfographSection">
-        <img src="assets/images/infoclip.png" />
-        <div class="InfographSectionEnlargeButton btn"><a href="assets/images/Sitepoint_media_Infographic.png" target="_blank">View our full infographic</a></div>
-      </section>
-
-      <div class="clear"></div>
-      <section class="FactSection">
-        <h1 class="FactSectionHeading">Some facts about SitePoint Media Group</h1>
-        <div class="Facts_container">
-          <div class="Fact">
-            <h2 class="FactHeading">9,000,000</h2>
-            <p class="FactBody">Unique visits per month</p>
+      <div class="facts">
+        <h1>Some facts about SitePoint Media Group</h1>
+        <div class="facts-container-main">
+          <div class="facts-subcontainer1">
+            <div class="factbox1">
+              <h2>9,000,000</h2>
+              <p>Unique visits per month</p>
+            </div>
+            <div class="factbox2">
+              <h2>11,000,000</h2>
+              <p>Pageviews each month</p>
+            </div>
           </div>
-          <div class="Fact">
-            <h2 class="FactHeading">11,000,000</h2>
-            <p class="FactBody">Pageviews each month</p>
-          </div>
-          <div class="Fact">
-            <h2 class="FactHeading">5 minutes</h2>
-            <p class="FactBody">Average spent on site</p>
-          </div>
-          <div class="Fact">
-            <h2 class="FactHeading">20%</h2>
-            <p class="FactBody">Yearly traffic growth</p>
+          <div class="facts-subcontainer2">
+            <div class="factbox3">
+              <h2>5 minutes</h2>
+              <p>Average spent on site</p>
+            </div>
+            <div class="factbox4">
+              <h2>20%</h2>
+              <p>Yearly traffic growth</p>
+            </div>
           </div>
         </div>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <section class="IconSection">
-        <h1 class="IconSectionHeading">What we offer</h1>
+      <div class="icons">
+        <h1>What we offer</h1>
         We've got something for everyone - no matter your budget
-        <div class="clear"></div>
-        <div class="Iconboxes_container">
-          <div class="Iconbox">
-            <a href="https://order.sitepointmedia.com" target="_blank">
-              <img class="IconboxIcon" src="assets/icons/display.png" alt="" />
-            </a>
-            <h2 class="IconboxHeading">Display</h2>
-            <p class="IconboxBody">Launch your display<br />
-               campaign<br />
-               <a class="IconboxAction" href="https://order.sitepointmedia.com" target="_blank">Find out more</a>
-            </p>
+      <div class="clear"></div>
+        <div class="iconbox-container">
+          <div class="iconbox1">
+          <a href="https://order.sitepointmedia.com" target="_blank">
+            <img src="assets/icons/display.png" alt="" />
+          </a>
+          <h2>Display</h2>
+          <p>Launch your display<br />
+             campaign<br />
+             <a href="https://order.sitepointmedia.com" target="_blank">Find out more</a></p>
           </div>
-
-          <div class="Iconbox">
-            <a href="#contact">
-              <img class="IconboxIcon" src="assets/icons/premium-deals.png" alt="" />
-            </a>
-            <h2 class="IconboxHeading">Premium Deals</h2>
-            <p class="IconboxBody">Let us create custom<br />
-               content for your brand<br />
-               <a class="IconboxAction" href="#contact">Find out more</a>
-             </p>
+          <div class="iconbox2">
+          <a href="#contact">
+            <img src="assets/icons/premium-deals.png" alt="" />
+          </a>
+          <h2>Premium Deals</h2>
+          <p>Let us create custom<br />
+             content for your brand<br />
+             <a href="#contact">Find out more</a></p>
           </div>
-
-          <div class="Iconbox">
-            <a href="#contact">
-              <img class="IconboxIcon" src="assets/icons/newsletter.png" alt="" />
-            </a>
-            <h2 class="IconboxHeading">Newsletters</h2>
-            <p class="IconboxBody">Reach over 200,000<br />
-               subscribers in one email!<br />
-               <a class="IconboxAction" href="#contact">Find out more</a>
-            </p>
+          <div class="iconbox3">
+          <a href="#contact">
+            <img src="assets/icons/newsletter.png" alt="" />
+          </a>
+          <h2>Newsletters</h2>
+          <p>Reach over 200,000<br />
+             subscribers in one email!<br />
+             <a href="#contact">Find out more</a></p>
           </div>
         </div>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <section class="LocationSection">
-        <h1 class="LocationSectionHeading">Where we are</h1>
-        <p class="LocationSectionBody">We're committed to building a global community and a thought
+      <div class="locations">
+        <h1>Where we are</h1>
+        <p>We're committed to building a global community and a thought
         leadership message for our audience.</p>
-
-        <div class="Locations_container">
-          <div class="Location los-angeles">
-            <h1 class="LocationHeading">Los Angeles</h1>
-            <p class="LocationBody">Being at the corner of
+        <div class="locationbox-container">
+          <div class="locationbox1">
+            <h1>Los Angeles</h1>
+            <p>Being at the corner of
             technology and entertainment
             keeps SitePoint relevant and
             cutting edge.</p>
           </div>
-          <div class="Location san-francisco">
-            <h1 class="LocationHeading">San Francisco</h1>
-            <p class="LocationBody">The Hub of Technology and
+          <div class="locationbox2">
+            <h1>San Francisco</h1>
+            <p>The Hub of Technology and
             the home of our current and
             future partners enables us to
             stay on top of information
             and innovation.</p>
           </div>
-          <div class="Location melbourne">
-            <h1 class="LocationHeading">Melbourne</h1>
-            <p class="LocationBody">Melbourne's growing tech
+          <div class="locationbox3">
+            <h1>Melbourne</h1>
+            <p>Melbourne's growing tech
             community is where our
             seasoned developers and
             designers create the
             SitePoint magic.</p>
           </div>
         </div>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <section class="ContactSection" id="contact">
-        <h1 class="ContactSectionHeading">Get in touch</h1>
-        <p class="ContactSectionBody">It's easy. Tell us a little bit about your organization<br />
+      <div class="contact" id="contact">
+        <h1>Get in touch</h1>
+        <p>It's easy. Tell us a little bit about your organization<br />
         and we'll get right back to you</p>
         <script type="text/javascript" src="https://sitepoint.formstack.com/forms/js.php?1898432-HPbpl5MHFv-v3"></script><noscript><a href="https://sitepoint.formstack.com/forms/untitled_form" title="Online Form">Online Form - SitePoint Media - Lead Collection</a></noscript>
-      </section>
-
+      </div>
       <div class="clear"></div>
-      <footer class="Footer">
-        <div class="FooterSocial">
+      <div class="footer">
+        <div class="social">
           <a href="https://www.linkedin.com/company/sitepoint-media/"><img src="assets/images/social/linkedin.png" alt="" /></a>
           <a href="https://www.facebook.com/pages/SitePoint-Media/1521360064768769"><img src="assets/images/social/facebook.png" alt="" /></a>
           <a href="https://twitter.com/sitepointmedia"><img src="assets/images/social/twitter.png" alt="" /></a>
         </div>
-        <div class="FooterCopyright">
+        <div class="copyright">
           &copy; 2000 - 2015 SitePoint Pty. Ltd.
         </div>
-      </footer>
-    </main>
+      </div>
+    </div>
   </body>
 </html>
