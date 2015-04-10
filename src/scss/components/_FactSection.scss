@@ -47,19 +47,19 @@
 }
 
 .FactHeading{
-  color      : $c-green;
-  font-size  : 1.5em;
-  line-height: 0.1em;
+  color           : $c-green;
+  font-size       : 1.5em;
+  line-height     : 0.1em;
 
   @media only screen and (min-width: 820px){
-    font-size: 1.9em;
+    font-size     : 1.9em;
   }
 }
 
 .FactBody{
-  color      : $c-white;
+  color           : $c-white;
 
   @media only screen and (max-width: 500px){
-    font-size: 1em;
+    font-size     : 1em;
   }
 }
